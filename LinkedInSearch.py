@@ -45,7 +45,7 @@ my_list = []
 ###########################
 options = Options()
 options.add_argument("--headless")
-driver = webdriver.Chrome(chrome_options=options, executable_path=r"C:/Users/Family Hammer/Downloads/chromedriver.exe")
+driver = webdriver.Chrome(chrome_options=options, executable_path=r"C:/path/to/chromedriver.exe")
 
 driver.get("https://www.linkedin.com/jobs/")
 
